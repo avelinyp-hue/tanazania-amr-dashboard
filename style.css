@@ -1,0 +1,81 @@
+/* ===== Tanzania AMR Dashboard - style.css (medical blue and white) =====
+   Colors used:
+   Navy  #0A2540   Blue  #0B5FA5   Teal  #1AA6B7   Border  #D6E4F2
+*/
+
+/* Page */
+.stApp {
+    background-color: #F4F8FC;
+    color: #0A2540;
+}
+h1, h2, h3, h4 {
+    color: #0A2540 !important;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #FFFFFF;
+    border-right: 1px solid #D6E4F2;
+}
+[data-testid="stSidebar"] h2 {
+    color: #0B5FA5 !important;
+}
+
+/* Number cards */
+[data-testid="stMetric"] {
+    background: #FFFFFF;
+    border: 1px solid #D6E4F2;
+    border-left: 6px solid #0B5FA5;
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: 0 2px 6px rgba(10, 37, 64, 0.06);
+}
+[data-testid="stMetricLabel"] p {
+    color: #4A6785 !important;
+    font-weight: 600;
+}
+[data-testid="stMetricValue"] {
+    color: #0B5FA5 !important;
+    font-weight: 700;
+}
+
+/* Top banner */
+.hero {
+    background: linear-gradient(120deg, #0A2540 0%, #0B5FA5 60%, #1AA6B7 100%);
+    padding: 26px 30px;
+    border-radius: 16px;
+    margin-bottom: 18px;
+}
+.hero h1 {
+    color: #FFFFFF !important;
+    margin: 0;
+    font-size: 1.9rem;
+}
+.hero p {
+    color: #DCEBFA;
+    margin: 6px 0 0 0;
+    font-size: 0.95rem;
+}
+
+/* Section titles */
+.section-title {
+    border-left: 5px solid #1AA6B7;
+    padding-left: 10px;
+    margin: 26px 0 6px 0;
+    color: #0A2540;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+/* Expanders and buttons */
+[data-testid="stExpander"] {
+    background: #FFFFFF;
+    border: 1px solid #D6E4F2;
+    border-radius: 12px;
+}
+.stDownloadButton button {
+    background: #0B5FA5;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 8px;
+}
